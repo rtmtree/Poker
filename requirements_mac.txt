@@ -1,14 +1,14 @@
-pandas==2.0.3
+pandas>=2.0.0
 pytest
 pylint
 pydocstyle
 numpy
-matplotlib==3.7.2
+matplotlib>=3.7.0
 scipy
 opencv-python
 pillow
-pyinstaller==5.13.0
-pymongo==4.3.3
+pyinstaller>=6.0.0
+pymongo>=4.3.0
 pyqt6
 virtualbox
 pyyaml
@@ -18,13 +18,14 @@ xlib
 xlrd
 lmfit
 openpyxl
-numexpr==2.8.4
-fastapi==0.101.1
-tensorflow
+numexpr>=2.8.0
+fastapi>=0.100.0
+# tensorflow  # Not compatible with Python 3.13 yet
 tqdm
 seaborn
-PyJWT==1.7.0
+PyJWT>=1.7.0
 flask_jwt_extended
-fastapi_auth
-uvicorn==0.23.2
-tesserocr==2.6.1
+# fastapi_auth  # Package not available
+uvicorn>=0.23.0
+tesserocr>=2.6.0
+pyobjc-framework-Quartz

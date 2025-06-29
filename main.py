@@ -324,5 +324,5 @@ def run_poker():
 
 
 if __name__ == '__main__':
-    print("Hello World")
-    # run_poker()
+    # print("Hello World")
+    run_poker()

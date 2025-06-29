@@ -49,7 +49,7 @@ class MainForm(QMainWindow):
 
     def __init__(self):
         super(MainForm, self).__init__()
-        uic.loadUi('gui/ui/main_form.ui', self)
+        uic.loadUi('poker/gui/ui/main_form.ui', self)
 
         self.show()
 
@@ -58,6 +58,6 @@ class UiPokerbot(QMainWindow):
 
     def __init__(self):
         super(UiPokerbot, self).__init__()
-        uic.loadUi('gui/ui/main_form.ui', self)
+        uic.loadUi('poker/gui/ui/main_form.ui', self)
 
         self.show()
